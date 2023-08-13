@@ -1,0 +1,32 @@
+QTabWidget:pane{
+    font-family: Rubik;
+    background-image: url(assets/fones/dark/1.png);
+    border: 1px; 
+}
+
+QPushButton, QComboBox, QListView, QLineEdit, #ScrollWidget, QScrollArea, #WeatherBackground{
+    border: none;
+    border-radius:10px;
+    font-size: 13pt;
+    /* color: white; */
+    font-weight: 600;
+    background-color: qlineargradient(spread:pad, x1:-0.2, y1:0, x2:1.2, y2:0, stop:0 rgba(255, 179, 0, 255), stop:1 rgba(78, 166, 255, 255));
+}
+
+QListView, #ScrollWidget, #WeatherBackground{
+    color: #121212;
+    font-size: 13pt;
+    background: rgba(255, 255, 255, 0.7);
+}
+QMessageBox QLabel { color: #121212;}
+#WeatherBackground QLabel { color: #121212;}
+
+QLabel{
+    font-size: 13pt;
+    color: white;
+    font-weight: 600;
+}
+
+QScrollArea{background: transparent;}
+QPushButton:hover {background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 179, 0, 255), stop:1 rgba(78, 166, 255, 255));}
+QPushButton:pressed { background-color: qlineargradient(spread:pad, x1:0.15, y1:0, x2:0.85, y2:0, stop:0 rgba(255, 179, 0, 255), stop:1 rgba(78, 166, 255, 255));}
